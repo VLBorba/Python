@@ -1,0 +1,9 @@
+numero = int(input('Digite um valor: '))
+c = numero
+f = 1
+while c > 0:
+    print(f'{c}', end='')
+    print(' x 4' if c > 1 else ' = ', end='')
+    f *= c
+    c -= 1
+print(f)
